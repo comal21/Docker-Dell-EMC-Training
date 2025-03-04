@@ -17,8 +17,13 @@ To begin, log in to AWS Console.
   * Select your private key file (.pem) from your computer.
   * Run the following command to move and set proper permissions:
   ```
+  mkdir -p ~/.ssh
+  ```
+  
+  ```
   mv <your-key-file>.pem ~/.ssh/
   ```
+  
   ```
   chmod 400 ~/.ssh/<your-key-file>.pem
   ```
