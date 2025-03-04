@@ -69,3 +69,28 @@ Verify Docker Installation
 ```
 docker --version
 ```
+### Docker Commands
+```
+docker run hello-world
+```
+```
+docker images
+```
+```
+docker ps
+```
+```
+docker ps -a
+```
+```
+docker run --help
+```
+```
+docker pull ubuntu
+```
+```
+docker run -it ubuntu bash
+```
+```
+docker run -d nginx
+```
