@@ -31,8 +31,7 @@ To begin, log in to AWS Console.
 ```
 ssh -i ~/.ssh/<your-key-file>.pem ubuntu@<EC2_PUBLIC_IP>
 ```
-Replace <your-key-file>.pem with your private key filename.
-Replace <EC2_PUBLIC_IP> with your EC2 instance’s public IP address.
+
 
 ### Task-2: Installing Docker on Ubuntu 18.04 operating system 
 ```
