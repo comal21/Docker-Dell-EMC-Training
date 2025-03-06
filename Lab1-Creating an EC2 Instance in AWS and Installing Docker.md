@@ -92,9 +92,4 @@ docker run --help
 ```
 docker pull ubuntu
 ```
-```
-docker run -it ubuntu bash
-```
-```
-docker run -d nginx
-```
+
