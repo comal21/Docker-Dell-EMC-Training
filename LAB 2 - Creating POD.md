@@ -69,5 +69,11 @@ kubectl run poddemo --image nginx --port 80 --dry-run=client -o yaml > poddemo.y
 ```
 kubectl logs podname
 ```
-
+### CleanUp
+```
+kubectl delete pod <podname>
+```
+```
+kubectl get pods
+```
 
