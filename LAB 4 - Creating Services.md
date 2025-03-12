@@ -1,4 +1,4 @@
-Lab 3 : Services in Kubernetes
+Lab 4 : Services in Kubernetes
 =============================================================
 ---------------------------------------------------------------
 # Task 1 - Create a file named "svc-pod.yaml" and add the following YAML for a Pod.
