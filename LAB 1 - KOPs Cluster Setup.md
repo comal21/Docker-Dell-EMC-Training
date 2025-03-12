@@ -108,6 +108,12 @@ Retrieve information about the existing clusters
 ```
 kops get cluster
 ```
+```
+export KOPS_STATE_STORE=s3://<ClusterName>
+```
+```
+kops export kubeconfig <ClusterName> --admin
+```
 Get information about the Kubernetes nodes in the cluster
 ```
 kubectl get nodes
