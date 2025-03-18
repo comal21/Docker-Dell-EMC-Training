@@ -16,7 +16,11 @@ Delete any custom namespaces created
 ```
 kubectl delete ns <nameofns>
 ```
-
+Delete any custom created service
+```
+kubectl delete svc <svcname>
+```
+Note: Don't delete the default service: Kubernetes
 ## Use the following command to verify the clusters you have
 ```
 kops get clusters
