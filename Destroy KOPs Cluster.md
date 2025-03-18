@@ -1,4 +1,14 @@
 # Delete KOPs cluster
+## CleanUp
+```
+kubectl delete pods --all -n default
+```
+```
+kubectl delete deployments --all -n default
+```
+```
+kubectl delete sts --all -n default
+```
 
 ## Use the following command to verify the clusters you have
 ```
